@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Hello from './Hello';
 import Welcome from './Welcome';
+// import 'jquery/src/jquery';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
 import './style.css';
 
 class App extends Component {
@@ -21,6 +24,7 @@ class App extends Component {
         <Welcome myname={this.state.myname} />
         <p>
           Start editing to see some magic happen :)
+          
         </p>
       </div>
     );
