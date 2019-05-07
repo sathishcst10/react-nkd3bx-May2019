@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+h1, p {
+  font-family: Lato;
+}
+
+h1{
+  color: #f00
+}
+p{
+  color:#f0f
+}
+
+.header {
+    width: 100%;
+    padding: 5px;
+    margin: 0;
+    background-color: #f00;
+    color: #fff;
+}
