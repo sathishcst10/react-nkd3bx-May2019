@@ -19,13 +19,9 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Hello name={this.state.name} />
-
-        <Welcome myname={this.state.myname} />
-        <p>
-          Start editing to see some magic happen :)
-          
-        </p>
+        
+        <Welcome myname={this.state.myname} name={this.state.name}/>
+        
       </div>
     );
   }

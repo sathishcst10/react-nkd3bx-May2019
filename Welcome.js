@@ -1,8 +1,8 @@
 import React from 'react';
 
-export default ({ myname }) => 
+export default ({ myname, name }) => 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Navbar</a>
+  <a class="navbar-brand" href="#">{myname}</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -18,7 +18,7 @@ export default ({ myname }) =>
         <a class="nav-link" href="#">Pricing</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        <a class="nav-link" href="#" tabindex="-1" aria-disabled="false">{name}</a>
       </li>
     </ul>
   </div>
