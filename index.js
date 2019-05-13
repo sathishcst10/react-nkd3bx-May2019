@@ -9,7 +9,8 @@ import './style.css';
 
 class App extends Component {
   componentDidMount(){
-    document.title = "TEST Site"
+    document.title = "TEST Site";
+    
   }
   constructor() {
     super();
