@@ -12,7 +12,7 @@ class App extends Component {
     super();
     this.state = {
       name: 'Sathish',
-      myname:'GGS'
+      myname:'UKQAAS'
     };
   }
 
