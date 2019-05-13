@@ -8,6 +8,9 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 import './style.css';
 
 class App extends Component {
+  componentDidMount(){
+    document.title = "TEST Site"
+  }
   constructor() {
     super();
     this.state = {
